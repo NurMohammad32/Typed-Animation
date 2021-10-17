@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Typed Animation with Jquery</title>
+</head>
+<body>
+    <div class="banner-area">
+        <h2>I am a <span class="type"></span></h2>
+    </div>
+    <div class="banner-area2">
+        <h2>I want to be a <span class="masum"></span></h2>
+    </div>
+
+    <script src="typed.js"></script>
+    <script>
+         var typed = new Typed('.type', {
+  strings: [
+      'Front-end Developer',
+      'Simple Graphic Designer',
+      ],
+      typeSpeed: 80,
+      backSpeed: 80,
+    loop: true, 
+});
+         var typed = new Typed('.masum', {
+  strings: [
+      'Freelancer',
+      ],
+      typeSpeed: 80,
+      backSpeed: 80,
+    loop: true, 
+});
+    </script>
+</body>
+</html>
