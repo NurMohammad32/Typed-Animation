@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../../Media/images/1000.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+@font-face {
+    font-family: LoveloLineLight;
+    src: url("../../others/New-font/English-new-font/Pacifico-Regular.ttf");
+    font-weight: bold;
+}
+.banner-area h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: LoveloLineLight;
+    color: #ffffff;
+    font-size: 4.5em;
+    
+
+}
+.banner-area2 h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: LoveloLineLight;
+    color: #ffffff;
+    font-size: 4.5em;
+    }
+.type{
+    color: #ffbb00;
+}
+.masum{
+    color: #ffbb00;
+}
