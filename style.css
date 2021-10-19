@@ -9,7 +9,7 @@ body{
 }
 @font-face {
     font-family: LoveloLineLight;
-    src: url("../../others/New-font/English-new-font/Pacifico-Regular.ttf");
+    src: url("./Pacifico-Regular.ttf");
     font-weight: bold;
 }
 .banner-area h2{
